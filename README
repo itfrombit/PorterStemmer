@@ -1,0 +1,10 @@
+A simple objc wrapper around the Porter Stemmer algorithm.
+
+Usage:
+	// Call the class method
+	[PorterStemmer stemFromString:@"tomatoes"]; //-> "tomato"
+
+	// Call the stem category method on NSString
+	[@"tomatoes" stem]; //-> "tomato"
+
+
